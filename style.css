@@ -1,0 +1,29 @@
+.navbar{
+    font-family: 'Roboto', sans-serif;
+  
+}
+.btn{
+    color: black;
+}
+ @media all and (max-width:800px) {
+    .work{
+        flex-direction: column;
+    }
+    #por, #new{
+       margin-bottom: 15px; 
+    }
+    }  
+
+    @media all and (max-width:500px) {
+
+        #por, #wed, #fam, #new{
+           margin-bottom: 15px; 
+        }
+        #por{
+            margin-top: 15px;
+        }
+        img{
+            max-width:100%;
+        }
+        }  
+    
